@@ -1,0 +1,19 @@
+{
+  "name": "fritzbox-calllist",
+  "version": "0.1.0",
+  "description": "Tool for retrieving the call list from a Fritz!Box router.",
+  "main": "app.js",
+  "dependencies": {
+    "concat-stream": "^1.6.0",
+    "htmlparser2": "^3.9.2",
+    "tr-064": "^0.2.0",
+    "websocket": "^1.0.25",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Steve Muller <steve.muller@outlook.com>",
+  "license": "MIT"
+}
